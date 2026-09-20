@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+```
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Add Book | TECHNO Library</title>
+
+<link rel="stylesheet" href="css/style.css">
+```
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+```
+<aside class="sidebar">
+
+    <div class="side-logo">
+        TECHNO<span>LIBRARY</span>
+    </div>
+
+    <p class="side-label">TEACHER</p>
+
+    <a href="teacher-dashboard.html" class="side-link">
+        ◉ Dashboard
+    </a>
+
+    <a href="teacher-books.html" class="side-link">
+        ▣ Books
+    </a>
+
+    <a href="add-book.html" class="side-link active">
+        ＋ Add Book
+    </a>
+
+    <a href="students.html" class="side-link">
+        ○ Students
+    </a>
+
+    <a href="teacher-issued.html" class="side-link">
+        ▤ Issued Books
+    </a>
+
+    <div class="sidebar-bottom">
+
+        <a href="index.html" class="side-link">
+            ← Logout
+        </a>
+
+    </div>
+
+</aside>
+
+
+<main class="dashboard-main">
+
+    <div class="page-heading">
+
+        <p class="eyebrow">
+            LIBRARY MANAGEMENT
+        </p>
+
+        <h1>Add New Book</h1>
+
+        <p>
+            Add a new title to the library collection.
+        </p>
+
+    </div>
+
+
+    <form class="book-form" action="teacher-books.html">
+
+        <div class="form-grid">
+
+            <div class="form-field full">
+
+                <label>Book Title</label>
+
+                <input
+                    type="text"
+                    placeholder="Enter book title"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-field">
+
+                <label>Author</label>
+
+                <input
+                    type="text"
+                    placeholder="Author name"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-field">
+
+                <label>ISBN</label>
+
+                <input
+                    type="text"
+                    placeholder="ISBN number"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-field">
+
+                <label>Category</label>
+
+                <select>
+
+                    <option>Technology</option>
+                    <option>Fiction</option>
+                    <option>Science</option>
+                    <option>History</option>
+                    <option>Self Help</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-field">
+
+                <label>Quantity</label>
+
+                <input
+                    type="number"
+                    placeholder="Number of copies"
+                >
+
+            </div>
+
+        </div>
+
+
+        <button type="submit" class="form-btn light-btn">
+            Add Book to Library →
+        </button>
+
+    </form>
+
+</main>
+```
+
+</div>
+
+</body>
+
+</html>
